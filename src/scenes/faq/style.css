@@ -8,3 +8,10 @@
 .Accordion {
     margin-bottom: 1vh;
 }
+
+.TituloFaq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}

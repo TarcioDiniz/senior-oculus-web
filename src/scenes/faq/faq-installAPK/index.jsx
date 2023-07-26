@@ -11,9 +11,7 @@ import AppStore from "../../../assets/app.store.svg"
 import homePageApp from "../../../assets/img/homePageAppOculus.png"
 import homePageSideQuest from "../../../assets/img/homePageSideQuest.png"
 
-import {BadgesApp, BadgesAppItem, FlexRow} from "../style";
-
-
+import {BadgesApp, BadgesAppItem, FlexRow} from "../../../styled";
 
 function FaqInstallAPK() {
 

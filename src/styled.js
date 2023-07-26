@@ -20,3 +20,4 @@ export const BadgesAppItem = styled.a`
     width: 150px;
   }
 `
+
