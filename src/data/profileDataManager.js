@@ -1,8 +1,8 @@
-import profilePicture from "../assets/profilePictures/01.svg"
+import profilePicture from "../assets/profilePictures/02.jpeg"
 
 const profileDataManager = {
-    profileName: "Tarcio",
-    profession: "Full Stack Developer",
+    profileName: "Sênior",
+    profession: "Sênior Saúde Móvel",
     profilePicture: profilePicture,
   };
   
