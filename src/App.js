@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
 import profileDataManager from "./data/profileDataManager";
-import FAQ from "./scenes/faq";
+import FAQ from "./scenes/faq/index";
 
 function App() {
   const [theme, colorMode] = useMode();

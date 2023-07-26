@@ -5,7 +5,7 @@ import { InputBase } from "@mui/material";
 import { LightModeOutlined } from "@mui/icons-material";
 import { DarkModeOutlined } from "@mui/icons-material";
 import { NotificationsOutlined } from "@mui/icons-material";
-import { SettingsOutlined } from "@mui/icons-material";
+// import { SettingsOutlined } from "@mui/icons-material";
 import { PersonOutline } from "@mui/icons-material";
 import { SearchOutlined } from "@mui/icons-material";
 
@@ -41,10 +41,6 @@ const Topbar = () => {
 
                 <IconButton>
                     <NotificationsOutlined />
-                </IconButton>
-
-                <IconButton>
-                    <SettingsOutlined />
                 </IconButton>
 
                 <IconButton>
