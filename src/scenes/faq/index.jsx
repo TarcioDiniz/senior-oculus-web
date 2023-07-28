@@ -29,7 +29,7 @@ function FAQ() {
                                 : "black"
                         }
                     >
-                        Dúvidas Frequentes
+                        Dúvidas Frequêntes
                     </Typography>
                 </div>
 

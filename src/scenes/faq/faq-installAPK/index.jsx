@@ -77,6 +77,9 @@ function FaqInstallAPK() {
                         </FlexRow>
                     </BadgesApp>
                     <div className="ContentFaq">
+                        <p>Ou baixe o APK (para plataforma Androido) <a href="../../../assets/apk/memoryGame.apk" download>Aqui</a></p>
+                    </div>
+                    <div className="ContentFaq">
                         <p><strong>Ativando o Modo De Desenvolvedor e Reiniciando</strong></p>
                         <ol>
                             <li>
