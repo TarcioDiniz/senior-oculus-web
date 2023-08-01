@@ -100,7 +100,7 @@ function SignIn() {
                             </Link>
                         </Grid>
                         <Grid item>
-                            <Link to="" onClick={handleSignup} style={{color: "dodgerblue"}}>Não Possui uma conta? Cadastre-se</Link>
+                            <Link component="button" onClick={handleSignup} style={{color: "dodgerblue"}}>Não Possui uma conta? Cadastre-se</Link>
                         </Grid>
                     </Grid>
                     <Copyright sx={{ mt: 5 }} />

@@ -109,7 +109,7 @@ function SignUp() {
                     </Button>
                     <Grid container justifyContent="flex-end">
                         <Grid item>
-                            <Link to="" onClick={handleSignin} style={{color: "dodgerblue"}}>Já possui uma conta? Entrar</Link>
+                            <Link component="button" onClick={handleSignin} style={{color: "dodgerblue"}}>Já possui uma conta? Entrar</Link>
                         </Grid>
                     </Grid>
                     <Copyright sx={{ mt: 5 }} />

@@ -9,6 +9,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import { ColorModeContext } from "../../theme";
 import profileDataManager from "../../data/profileDataManager";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+// eslint-disable-next-line
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 
@@ -176,13 +177,13 @@ const Sidebar = () => {
                                 }
                                 sx={{ m: "15px 0 5px 20px" }}
                             >
-                                Data
+                                Devices
                             </Typography>
                         )}
 
                         <Item
                             title="Oculus Meta"
-                            to="/oculus-meta"
+                            to="/Oculus"
                             icon={<AllInclusiveOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
@@ -203,24 +204,24 @@ const Sidebar = () => {
                         )}
 
                         <Item
-                            title="Profile Form"
-                            to="/form"
+                            title="Pacientes"
+                            to="/Pacientes"
                             icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                             isCollapsed={isCollapsed} // Pass isCollapsed to the Item component
                         />
-                        <Item
+                        {/*<Item
                             title="Calendar"
                             to="/calendar"
-                            icon={<CalendarTodayOutlinedIcon />}
+                            icon={<CalendarTodayOutlinedIcon/>}
                             selected={selected}
                             setSelected={setSelected}
                             isCollapsed={isCollapsed} // Pass isCollapsed to the Item component
-                        />
+                        />*/}
                         <Item
                             title="FAQ Page"
-                            to="/faq"
+                            to="/FAQ"
                             icon={<HelpOutlineOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
